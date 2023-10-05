@@ -15,7 +15,7 @@ const displayPosts = posts =>{
         postCard.innerHTML = `
         <div class="card-body">
           <h1 class="text-4xl">${post.id}</h1>
-          <h2 class="card-title">Description: ${post.title}</h2>
+          <h2 class="card-title">Title: ${post.title}</h2>
           <p>${post.body}</p>
       </div>
         `;
